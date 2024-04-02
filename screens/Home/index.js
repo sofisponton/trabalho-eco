@@ -20,9 +20,6 @@ export default function Home({ navigation }) {
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
       <ImageBackground source={fundo} resizeMode="cover" style={styles.image}>
         <View style={styles.content}>
-          <Text style={styles.title}>Calcule</Text>
-          <Text style={styles.title}>a</Text>
-          <Text style={styles.titlee}>Força</Text>
           <View style={styles.padding}>
             <Pressable
               title="Eco"
